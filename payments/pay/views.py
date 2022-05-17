@@ -4,6 +4,7 @@ from django.shortcuts import redirect
 #from django.http import JsonResponse
 from django.views import View
 from django.views.generic import TemplateView
+from rest_framework.decorators import api_view
 
 from .models import Item, Price
 
